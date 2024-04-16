@@ -1,10 +1,12 @@
+import styles from './initial.module.scss';
+
 interface InitialProps {
 
 }
 
 const Initial = ({}: InitialProps) => {
   return (
-    <div>
+    <div className={styles.buttomLink}>
       Hello initial
     </div>
   );
